@@ -1,0 +1,51 @@
+body{
+    /*background: #a2a8d3;*/
+    /*background: #a9c6de;*/
+    /*background:-webkit-gradient(linear, 50% 50%,10% 0%,from(#a2a8d3), to(#a9c6de));*/
+    width: 100%;
+    height: 100%;
+    animation:bj 5s infinite;
+}
+@keyframes bj {
+    from{
+        background: #a2a8d3;
+    }
+    50%{
+        background: #a9c6de;
+    }
+    to{
+        background: #a2a8d3;
+    }
+}
+.img{
+    width: 200px;
+    animation:imgxuanzhuan 5s infinite;
+}
+.img:hover{
+
+}
+@keyframes imgxuanzhuan {
+    40%{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+
+}
+.imgbox{
+    text-align: center;
+}
+.imgp{
+    text-align: center;
+    font-size: 30px;
+    color: #e7eaf6;
+}
+.book{
+    text-align: center;
+}
+.book  svg:hover{
+    background: rgba(232,232,232,0.5);
+    transition-duration: 200ms;
+}
+
